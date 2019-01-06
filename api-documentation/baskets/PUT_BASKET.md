@@ -12,10 +12,8 @@ Edit and return a basket.
 ## Request Body
 
 - **basket** _(required)_ — object
-    - **name** _(required)_ — string
-    - **authorId** _(required)_ — string
-    - **publisherId** _(required)_ — string
-    - **isbn** _(required)_ — string
+    - **clientId** _(required)_ — string
+    - **productId** _(required)_ — string
     - **price** _(required)_ — number
     - **Others attributes...** _(optional)_
 
@@ -24,16 +22,14 @@ Edit and return a basket.
 ## Example
 **Request URI**
 
-    https://basket-microservice-lucashdp.herokuapp.com//v1/public/baskets/5bb0e04a7ca1951a9cb23d49
+    https://basket-microservice-lucashdp.herokuapp.com/v1/public/baskets/5bb0e04a7ca1951a9cb23d49
 
 **Request Response**
 ``` json
 {
-    "_id": ObjectId("5bb0e04a7ca1951a9cb23d50"),
-    "name": "Aplicações web real-time com Node.js",
-    "authorId": "5465564546",
-    "publisherId": "984615",
-    "isbn": "6588880000",
+    "_id": ObjectId("5bb0e04a7ca1951a9cb23d49"),
+    "clientId": "5465564546",
+    "productId": "984615",
     "price": 100.00,
     "...": ""
 }

@@ -14,7 +14,7 @@ Delete the basket of reference id.
 ## Example
 **Request URI**
 
-    https://basket-microservice-lucashdp.herokuapp.com//v1/public/baskets/5bb0e04a7ca1951a9cb23d50
+    https://basket-microservice-lucashdp.herokuapp.com/v1/public/baskets/5bb0e04a7ca1951a9cb23d50
 
 **Request Response**
 

@@ -14,16 +14,14 @@ Returns the basket of reference id.
 ## Example
 **Request URI**
 
-    https://basket-microservice-lucashdp.herokuapp.com//v1/public/baskets/5bb0e04a7ca1951a9cb23d50
+    https://basket-microservice-lucashdp.herokuapp.com/v1/public/baskets/5bb0e04a7ca1951a9cb23d50
 
 **Request Response**
 ``` json
 {
     "_id": ObjectId("5bb0e04a7ca1951a9cb23d50"),
-    "name": "Construindo APIs REST com Node.js: Caio Ribeiro Pereira",
-    "authorId": "5465564546",
-    "publisherId": "984615",
-    "isbn": "6588880000",
+    "clientId": "5465564546",
+    "productId": "984615",
     "price": 100.00,
     "...": ""
 }
